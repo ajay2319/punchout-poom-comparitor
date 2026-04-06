@@ -1,0 +1,404 @@
+<cXML payloadID="bH68e5da3bdc888" timestamp="Wed Oct 08 03:59:32 UTC 2025" version="1.2.041" xml:lang="EN">
+	<Header>
+		<From>
+			<Credential domain="birchstreetw.com">
+				<Identity>L00029506</Identity>
+			</Credential>
+		</From>
+		<To>
+			<Credential domain="birchstreet.com">
+				<Identity>aramark</Identity>
+			</Credential>
+		</To>
+		<Sender>
+			<Credential domain="birchstreet2.com">
+				<Identity>L00029506</Identity>
+				<SharedSecret/>
+			</Credential>
+			<UserAgent>notUsed</UserAgent>
+		</Sender>
+	</Header>
+	<Message deploymentMode="test">
+		<PunchOutOrderMessage>
+			<BuyerCookie>10-7-2025-20-27-55-41-5-mcbride-dana</BuyerCookie>
+			<PunchOutOrderMessageHeader operationAllowed="create">
+				<Total>
+					<Money currency="USD">463.58</Money>
+				</Total>
+				<Shipping>
+					<Money currency="USD"/>
+				</Shipping>
+				<ShipTo>
+					<Address>
+						<Name xml:lang="en"/>
+						<PostalAddress>
+							<DeliverTo/>
+							<Street/>
+							<City/>
+							<State/>
+							<PostalCode/>
+							<Country isoCountryCode=""/>
+						</PostalAddress>
+					</Address>
+				</ShipTo>
+				<Tax>
+					<Money currency="USD">0.00</Money>
+					<Description xml:lang="en">
+						<![CDATA[]]>
+					</Description>
+				</Tax>
+			</PunchOutOrderMessageHeader>
+			<ItemIn lineNumber="1" quantity="3">
+				<ItemID>
+					<SupplierPartID>0933382</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/0</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">22.63</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Sandwich Biscuit Egg Cheese &amp; Sausage Individually Wrapped
+					    
+						<ShortName>SANDWICH BISC EGG/CH/SAU IW</ShortName>
+					</Description>
+					<UnitOfMeasure>LB</UnitOfMeasure>
+					<Classification domain="">06020599</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">67.89</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">1</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">222.63</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">3.30</Extrinsic>
+					<Extrinsic name="casePack">12</Extrinsic>
+					<Extrinsic name="caseSize">4.9 OZ</Extrinsic>
+					<Extrinsic name="itemsPerCase">12</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="2" quantity="1">
+				<ItemID>
+					<SupplierPartID>6826313</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/1</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">41.51</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Roll Sandwich Ciabatta
+					    
+						<ShortName>ROLL SANDWICH CIABATTA</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">06011020</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">41.51</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">2</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">41.51</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">13.00</Extrinsic>
+					<Extrinsic name="casePack">60</Extrinsic>
+					<Extrinsic name="caseSize">3 OZ</Extrinsic>
+					<Extrinsic name="itemsPerCase">60</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="3" quantity="1">
+				<ItemID>
+					<SupplierPartID>1961408</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/2</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">28.07</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Muffin Assorted Individually Wrapped 12 Blueberry, 6 Banana Nut, 6 Bran
+					    
+						<ShortName>MUFFIN ASST IW</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">06018020</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">28.07</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">3</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">28.07</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">6.00</Extrinsic>
+					<Extrinsic name="casePack">24</Extrinsic>
+					<Extrinsic name="caseSize">4 OZ</Extrinsic>
+					<Extrinsic name="itemsPerCase">24</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="4" quantity="1">
+				<ItemID>
+					<SupplierPartID>6307215</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/3</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">93.29</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Bacon Layflat Applewood Gh 14/18
+					    
+						<ShortName>BACON LAYFLAT APPLWD GH 14/18</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">03030801</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">93.29</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">4</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">93.29</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">15.00</Extrinsic>
+					<Extrinsic name="casePack">2</Extrinsic>
+					<Extrinsic name="caseSize">7.5 LB</Extrinsic>
+					<Extrinsic name="itemsPerCase">2</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="5" quantity="1">
+				<ItemID>
+					<SupplierPartID>7179487</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/4</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">37.57</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Sausage Pork Patty Gh 1.5 Ounces Cooked
+					    
+						<ShortName>SAUSAGE PORK PTY GH 1.5 OZ CKD</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">03040303</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">37.57</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">5</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">37.57</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">10.00</Extrinsic>
+					<Extrinsic name="casePack">1</Extrinsic>
+					<Extrinsic name="caseSize">10 LB</Extrinsic>
+					<Extrinsic name="itemsPerCase">1</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="6" quantity="1">
+				<ItemID>
+					<SupplierPartID>7168437</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/5</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">25.86</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Tomato Sliced 7/32 Inch
+					    
+						<ShortName>TOMATO SLICED 7/32 IN</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">11022802</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">25.86</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">6</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">25.86</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">7.98</Extrinsic>
+					<Extrinsic name="casePack">4</Extrinsic>
+					<Extrinsic name="caseSize">42 CT</Extrinsic>
+					<Extrinsic name="itemsPerCase">4</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="7" quantity="1">
+				<ItemID>
+					<SupplierPartID>3089685</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/6</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">69.67</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Turkey Breast Oven-roasted Caramel Sliced Grade A
+					    
+						<ShortName>TURKEY BREAST SLI O/RSTD BRN</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">05011409</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">69.67</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">7</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">69.67</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">12.00</Extrinsic>
+					<Extrinsic name="casePack">12</Extrinsic>
+					<Extrinsic name="caseSize">1 LB</Extrinsic>
+					<Extrinsic name="itemsPerCase">12</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="8" quantity="1">
+				<ItemID>
+					<SupplierPartID>7217551</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/7</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">57.49</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Ham Sliced Thin Fully Cooked Ghp Fresh
+					    
+						<ShortName>HAM SLICED THIN FC GHP FRSH</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">03030510</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">57.49</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">8</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">57.49</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">12.00</Extrinsic>
+					<Extrinsic name="casePack">4</Extrinsic>
+					<Extrinsic name="caseSize">3 LB</Extrinsic>
+					<Extrinsic name="itemsPerCase">4</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+			<ItemIn lineNumber="9" quantity="1">
+				<ItemID>
+					<SupplierPartID>7243206</SupplierPartID>
+					<SupplierPartAuxiliaryID>bH68e5da3bdc888/8</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">42.23</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">Appetizer Spring Roll Veg
+					    
+						<ShortName>APTZR SPRING ROLL VEG</ShortName>
+					</Description>
+					<UnitOfMeasure>CS</UnitOfMeasure>
+					<Classification domain="">06020120</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">No</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">42.23</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">9</Extrinsic>
+					<Extrinsic name="catchWeightFlag">No</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">CS</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">42.23</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">8.25</Extrinsic>
+					<Extrinsic name="casePack">150</Extrinsic>
+					<Extrinsic name="caseSize">.88 OZ</Extrinsic>
+					<Extrinsic name="itemsPerCase">150</Extrinsic>
+					<Extrinsic name="specialOrderItem"/>
+					<Extrinsic name="marketPriceFlag"/>
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+					<Extrinsic name="ItemPickingInstructions"/>
+					<Extrinsic name="OrderPickingInstructions"/>
+					<Extrinsic name="Comments"/>
+					<Extrinsic name="RoutingInstructions"/>
+					<Extrinsic name="InvoicingInstructions"/>
+					<Extrinsic name="RequestedDeliveryDate"/>
+					<Extrinsic name="categoryid"/>
+				</ItemDetail>
+			</ItemIn>
+		</PunchOutOrderMessage>
+	</Message>
+</cXML>

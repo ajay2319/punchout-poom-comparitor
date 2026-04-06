@@ -1,0 +1,72 @@
+<cXML payloadID="{{OrderReferenceId}}" timestamp="{{TimeStamp}}" version="1.2.041" xml:lang="EN">
+	<Header>
+		<From>
+			<Credential domain="birchstreet.com">
+				<Identity>{{cXML.Header.To.Credential.Identity}}</Identity>
+			</Credential>
+		</From>
+		<To>
+			<Credential domain="birchstreet.com">
+				<Identity>{{cXML.Header.Sender.Credential.Identity}}</Identity>
+			</Credential>
+		</To>
+		<Sender>
+			<Credential domain="birchstreet.com">
+				<Identity>{{cXML.Header.To.Credential.Identity}}</Identity>
+				<SharedSecret/>
+			</Credential>
+			<UserAgent>notUsed</UserAgent>
+		</Sender>
+	</Header>
+	<Message deploymentMode="production">
+		<PunchOutOrderMessage>
+			<BuyerCookie>{{{cXML.Request.PunchOutSetupRequest.BuyerCookie}}}</BuyerCookie>
+			<PunchOutOrderMessageHeader operationAllowed="create">
+				<Total>
+					<Money currency="USD">{{ShopOrderDetails.total}}</Money>
+				</Total>
+			</PunchOutOrderMessageHeader>
+            {{#each ShopOrderDetails.items}}
+			<ItemIn lineNumber="{{increment @index}}" quantity="{{quantity}}">
+				<ItemID>
+					<SupplierPartID>{{supplierId}}</SupplierPartID>
+					<SupplierPartAuxiliaryID>{{../SupplierPartAuxilaryId}}/{{@index}}</SupplierPartAuxiliaryID>
+				</ItemID>
+				<ItemDetail>
+					<UnitPrice>
+						<Money currency="USD">{{unitPrice}}</Money>
+					</UnitPrice>
+					<Description xml:lang="EN">{{{description}}}
+					    <ShortName>{{{name}}}</ShortName>
+					</Description>
+					<UnitOfMeasure>{{uom}}</UnitOfMeasure>
+					<Classification domain="">{{cmim}}</Classification>
+					<ManufacturerPartID/>
+					<Extrinsic name="splitIndicator">{{splitIndicator}}</Extrinsic>
+					<Extrinsic name="itemExtendedPrice">{{itemExtendedPrice}}</Extrinsic>
+					<Extrinsic name="orderDetailLineNumber">{{orderDetailLineNumber}}</Extrinsic>
+					<Extrinsic name="catchWeightFlag">{{catchWeightFlag}}</Extrinsic>
+					<Extrinsic name="orderedUnitOfMeasure">{{orderedUnitOfMeasure}}</Extrinsic>
+					<Extrinsic name="unitPriceInOrderedUnitOfMeasure">{{unitPriceInOrderedUnitOfMeasure}}</Extrinsic>
+					<Extrinsic name="averageWeightPerCase">{{averageWeightPerCase}}</Extrinsic>
+					<Extrinsic name="casePack">{{casePack}}</Extrinsic>
+					<Extrinsic name="caseSize">{{caseSize}}</Extrinsic>
+					<Extrinsic name="itemsPerCase">{{itemsPerCase}}</Extrinsic>
+					{{#if specialOrderItem}}
+                    <Extrinsic name="specialOrderItem">{{specialOrderItem}}</Extrinsic>
+                    {{else}}
+                    <Extrinsic name="specialOrderItem"/>
+                    {{/if}}
+                    {{#if marketPriceFlag}}
+                    <Extrinsic name="marketPriceFlag">{{marketPriceFlag}}</Extrinsic>
+                    {{else}}
+                    <Extrinsic name="marketPriceFlag"/>
+                    {{/if}}
+					<Extrinsic name="orderedQuantity"/>
+					<Extrinsic name="apply_sessionlink">1</Extrinsic>
+				</ItemDetail>
+			</ItemIn>
+            {{/each}}
+		</PunchOutOrderMessage>
+	</Message>
+</cXML>

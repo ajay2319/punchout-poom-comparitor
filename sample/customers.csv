@@ -1,0 +1,70 @@
+"id","customer_ref","name","created_at","internal_name","order_approval_customer_ref","credential_mode","environment","customer_config","third_party","broadline","is_sftp_po_approval_customer","is_esysco"
+273,P7QJX82VZFNT6RK,ASM Global,2026-01-27 16:05:22.215 +0530,asm_global_shop,L8ZVN31SYQGP7XD,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""022asmgl376046"",""sharedSecret"":""bJuidNlqFK7ifhqF7EYwdA==""}}",thirdparty,USBL,false,true
+274,T2KCF69JRXLM5QB,Benderson Nexus,2026-01-27 16:05:22.215 +0530,benderson_nexus_shop,S5YDQ47MZNTH8PJ,USER_BASED,Production,"",thirdparty,USBL,false,true
+275,QWZMPHATKRCJDL,Agora,2026-01-27 16:05:22.215 +0530,agora_shop,BNYXRQPLHATKZM,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""059agora079069"",""sharedSecret"":""pz/KPEnMa+zDcFY5ybzHeQ==""}}",thirdparty,USBL,false,true
+276,A9XRM73QWJLP4KT,Andretti Karting Indoor,2026-01-27 16:05:22.215 +0530,andretti_karting_indoor,WJZP6QK4RNT8LM,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""testIdentity"",""sharedSecret"":""TestSharedSecret""}}",thirdparty,,false,true
+277,MXRDLTQSPHBCWJ,Aramark,2026-01-27 16:05:22.215 +0530,aramark_shop,KJVTNQZLDRPSAW,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""aramark"",""sharedSecret"":""ss""}}",thirdparty,USBL,false,true
+278,zU61eac96b44e6b,Craftable,2026-01-27 16:10:00.577 +0530,craftable_shop,pn61eacbdeeba87,USER_BASED,Production,"",thirdparty,USBL,false,true
+279,yB659ed6ac79edb,Catalina Island Medical Center,2026-01-27 16:10:00.577 +0530,catalina_island_medical_center_shop,Cz659edaa4acc35,USER_BASED,Production,"",thirdparty,,false,true
+280,N2LCY58ZDMRQ7HK,Black Rifle Coffee,2026-01-27 16:10:00.577 +0530,black_rifle_coffee_shop,F6JPX14QTRB9VWM,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""005blkrf977401"",""sharedSecret"":""yrGGYWavCsWTfOZ0dgzBcw==""}}",Coupa,USBL,false,true
+281,K3ZLD8RPWQTN57H,BirchStreet USBL,2026-01-27 16:10:00.577 +0530,birchstreet_usbl,M9XQTPV4RLSJ82C,USER_BASED,Production,"",,USBL,false,true
+284,R3VHG86LTPWX2KF,Bold Age Shop,2026-01-27 16:35:33.788 +0530,bold_age_shop,ZANLEMG9AOXQER,USER_BASED,Production,"{}",thirdparty,USBL,false,true
+285,F6JBNWQ3ZRTK95P,Adelpo,2026-01-27 16:35:33.788 +0530,adelpo_shop,a,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+286,ZQTHRLMXCPVJNSA,Four Seasons,2026-01-27 16:38:48.126 +0530,four_seasons,BKWDYQJTRZPMHLC,PARTNER_BASED,Production,"{""partnerId"":""mock_partner_id"",""secret"":""mock_secret""}",thirdparty,,false,true
+287,mI67f82cfdc66f7,Hilton HSM,2026-01-27 16:38:48.126 +0530,hilton_hsm,OI67f82d79a6f8f,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+288,BFX4931TY8MNQP,Hobbs Brook,2026-01-27 16:40:39.321 +0530,hobbs_brook,ZPL6074KV3RTYW,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+289,TED8726QR5EXSS,iBuy Efficient,2026-01-27 16:40:39.321 +0530,ibuy_efficient,OLOTMSKF35WO20,USER_BASED,Production,"{""commonCredentials"":{""identity"":""testIdentity"",""sharedSecret"":""TestSharedSecret""}}",thirdparty,,false,true
+290,T9XJD47QBLMF2EP,IMM Customer,2026-01-27 16:45:54.556 +0530,imm_customer,R6HVK13ZWTYQ9SN,USER_BASED,Production,"{""commonCredentials"":{""identity"":""testIdentity"",""sharedSecret"":""TestSharedSecret""}}",thirdparty,,false,true
+291,JCPWZKXRMHATDL,Iron Horse,2026-01-27 16:45:54.556 +0530,iron_horse,ZMTQHRCWPLKYXA,USER_BASED,Production,"{""commonCredentials"":{""identity"":""testIdentity"",""sharedSecret"":""TestSharedSecret""}}",thirdparty,,false,true
+292,eg6797a71742a81,MCR Hotels,2026-01-27 16:49:29.732 +0530,mcr_hotels,de6797ca1d552a0,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""testIdentity"",""sharedSecret"":""TestSharedSecret""}}",thirdparty,,false,true
+293,K4RZT89MJQW2LNP,Meals On Wheels,2026-01-27 17:00:25.424 +0530,meals_on_wheels,N2LCY58ZDMRQ7HK,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+294,QMTZKJXRWPHADL,Brightview Shop,,brightview_shop,JCPXWZKRMHATDL,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""056bright094938"",""sharedSecret"":""04EXs4EwaxVNVl80ErCs9g==""}}",thirdparty,USBL,false,true
+296,LCPWZKXRMHQTDA,California Pasadena Convalescent Hospital Shop,,california_pasadena_convalescent_hospital_shop,,USER_BASED,Production,"",,USBL,false,true
+297,JDPWZKXRMTAHQL,Churchill Downs Shop,,churchill_downs_shop,,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""sysadmin@ariba.com"",""sharedSecret"":""Ariba246+""}}",,USBL,false,true
+298,K9RDX41ZVQMT8PJ,BirchStreet CABL,,birchstreet_cabl,T6ZP2KQ8RXJ4VMF,USER_BASED,Production,"",,CABL,false,false
+299,"8QJRVX2M7KZP4TF",Procurement Partners CABL,,procurement_partners_cabl,V2K8PZ7XJQ4RMFT,USER_BASED,Production,"",,CABL,false,true
+300,R8F7ZP4Q2KXMVJT,Vail Resorts,,vail_resorts_cabl,J4TQZ8VMXK72PRF,USER_BASED,Production,"",,CABL,false,true
+315,lQ64cd31120b8c6,Merlin Entertainment,2026-02-05 16:23:05.702 +0530,merlin_entertainment,os64cd31baca3ec,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+316,yR602456d254fcb,Navigator,2026-02-05 16:23:05.702 +0530,foodbuy_navigator_shop,Zl602457117682b,USER_BASED,Production,"",thirdparty,USBL,false,true
+317,AL60550a6819faa,Nordstrom,2026-02-05 16:23:05.702 +0530,nordstrom,Ah60550e6e9d0e2,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+318,OWA9C8XYQY1DHA,OnCare Shop,2026-02-05 16:23:05.702 +0530,oncare_shop,"11S5NTJBCSPU9S",USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+319,Xj5ffc859a40298,OneSource,2026-02-05 16:23:05.702 +0530,foodbuy_onesource_shop,ts5ffc8e1f08b9a,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+320,rc65c52b0d479f8,Perkins School,2026-02-05 16:23:05.702 +0530,perkins_school,bL65c5588da8638,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+321,M7PLD92XQJTR5YN,Procurement Partners,2026-02-05 16:23:05.702 +0530,procurement_partners,,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+322,OENLMGAZ8AZOAE,Pulse Restora,2026-02-05 16:23:05.702 +0530,pulse_restora,I7WT0N96PJMSYY,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+323,zL61fd71db873e7,Red Rock,2026-02-05 16:23:05.702 +0530,red_rock,st61fd7395d2d7a,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+324,KXTRNQMLSPVJHZA,SDZWA Safari Park Zoo,2026-02-05 16:23:05.702 +0530,sdzwa_safari_park_zoo,QPLZVHXMRNTJSAK,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+325,he64d3b0fb257e9,Sodexo Entegra,2026-02-05 16:23:05.702 +0530,sodexo_entegra,yX64dbbc620e206,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+326,K9TR5X7PLN2JYDM,State of Ohio,2026-02-05 16:23:05.702 +0530,state_of_ohio,QJ7MPLX52TR9YDN,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""015ohio806273"",""sharedSecret"":""8J+w5nv5iM6Ves2mlaejmg==""}}",thirdparty,USBL,false,true
+327,WKXSMOAPMSCMTT,Stream Shop,2026-02-05 16:23:05.702 +0530,stream_shop,QP4QXRX78ADWCS,USER_BASED,Production,"{""username"":""mock_user"",""password"":""mock_password""}",thirdparty,,false,true
+331,"9LTXW3N8QK2Z5RV",Front Porch Shop,,front_porch_shop,"7MPQ4ZK9TX8L2WR",USER_BASED,Production,"",Infor Lawson (r2),USBL,false,true
+332,"2ZRV8QK7LTX5MP",Gate Hospitality Shop,,gate_hospitality_shop,"5KZQ9L2WR8X7MT",USER_BASED,Production,"",Fourth,USBL,false,true
+333,"8TX2MP7ZQK4L9R",Future Rehab of Tequesta Shop,,future_rehab_of_tequesta_shop,"4WR9KZ8L2QTX7M",USER_BASED,Production,"",Coupa,USBL,false,true
+364,HDTG7UE63GDB27D,Gateway Church Shop,2026-02-16 15:34:27.295 +0530,gateway_church_shop,YDH3HDY84GS6WGX,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""006gatewy120004"",""sharedSecret"":""luZp/D/Anz3jGTyZRDcZdQ==""}}",Coupa,USBL,false,true
+365,DYEH4YE7S5WHRUD,Good Shepherd Communities Shop,2026-02-16 23:25:45.309 +0530,good_shepherd_communities_shop,WTHE6TSGE6W8EHS,USER_BASED,Production,"",Smart PO,USBL,false,true
+366,GDHTE7TSHET12HS,Great Wolf Resorts Inc Shop,2026-02-17 00:05:12.178 +0530,great_wolf_resorts_inc_shop,GHTU57WGST5GDJB,USER_BASED,Production,"",Coupa,USBL,false,true
+367,SGDTEH7D5H3JS7D,HHM Hospitality Shop,2026-02-17 00:17:04.526 +0530,hhm_hospitality_shop,DHJE8N4HW9EJ2YS,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""000Hersh999999"",""sharedSecret"":""kqOMMU7Z4Vr6Skw5LZGoxw==""}}",Workday,USBL,false,true
+369,Q7L9XW3M8ZK2PT,Crescent Care Elgin Shop,,crescent_care_elgin_shop,V4N8RJ6Q1XKZMW,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""023cresc006308"",""sharedSecret"":""ErddSEqDjGs8Bs5c9t1piw==""}}",Smart PO,USBL,true,true
+397,ASE35GSJU7Y6YHS,Hilton Shop,2026-02-27 11:35:46.428 +0530,hilton_shop,HSU7YE6SJ91GAYD,USER_BASED,Production,"",Coupa,USBL,false,true
+430,P6D9XR2M5WLKH,Religious Order of Jehovah's Witnesses Shop,,religious_order_of_jehovahs_witnesses_shop,G3B5TN7V1SQRP,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""025rojw461210"",""sharedSecret"":""64FMCwhks4VMaadj9ErqCjqpBtuzrk""}}",Hub (ROJW),USBL,true,true
+431,H2N5XM9L7KPWQ,Oaklawn Shop,,oaklawn_shop,B8G4TR1V6SMDZ,USER_BASED,Production,"",Workday,USBL,false,true
+463,RGDT6YEH3ISH72N,Sodexo Beacon Providence Shop,2026-03-03 10:56:41.766 +0530,sodexo_beacon_providence_shop,HY63RSFT72H4HAT,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""067sbp000018"",""sharedSecret"":""bdgKuzjMOYDNBvhkz47qiw==""}}",Workday,USBL,false,true
+464,LGST5EN7US52GST,KSL Resorts Shop,2026-03-03 10:56:41.766 +0530,ksl_resort_shop,NSH7E6S6AKIRGHW,USER_BASED,Production,"",Coupa,USBL,false,true
+465,QKTR8DP4AZ61MHT,Brookridge Retirement Community,2026-03-05 19:15:58.526 +0530,brookridge_retirement_community,BXSV6LF9UR23KPW,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""012brook238260"",""sharedSecret"":""d3GVuskjoL7PD8+UcK72sA==""}}",Smart PO,USBL,true,true
+496,"7XK9T2QW4H8R5LM",Salamander Hotels Fourth,2026-03-10 15:53:04.911 +0530,salamander_hotels_fourth,Q2VZ8N1JRD4C7KT,USER_BASED,Production,"",Fourth,USBL,false,true
+497,M4ZK8Q1R7TD9W2H,InterContinental Hotels Shop,2026-03-12 10:40:28.772 +0530,inter_continental_hotels_shop,F9J3L8S6QRP2T7V,USER_BASED,Production,"",Fourth,USBL,false,true
+498,X8R2L7MQ5D9T4KV,Neighborhood Healthcare Shop,2026-03-13 11:50:15.910 +0530,neighborhood_healthcare_shop,H3P9W6ZQ1L8N2RY,USER_BASED,Production,"{""commonCredentials"":{""identity"":""320neighc177216"",""sharedSecret"":""kJN1U0CUZ0IrLE/tqPSgig==""}}",Coupa,USBL,false,true
+499,K7VQ3Z2H9TL8RWF,National Church Residences Shop,2026-03-13 11:50:25.390 +0530,national_church_residences_shop,P4N8X6JQ1S7DMBK,USER_BASED,Production,"{""commonCredentials"":{""identity"":""022natchr940777"",""sharedSecret"":""lYbEmi3cyn/Oe57BiBdz5w==""}}",Workday,USBL,false,true
+529,F8K2M9Q4R7T6WXA,Western NY Manor,2026-03-14 12:31:57.702 +0530,western_ny_manor,H3N7P5L8V2C9DRE,USER_BASED,Production,"",Uni-Market,USBL,false,true
+530,J6T4Y8U1K5M3QZA,The Palms Hotel,2026-03-14 12:31:57.702 +0530,the_palms_hotel,B9R2X7C4N8L6PTE,USER_BASED,Production,"",Fourth,USBL,false,true
+531,M5V8K3D7H2Q9WFA,International Union of Operating Engineers Shop,2026-03-14 12:31:57.702 +0530,international_union_of_operating_engineers_shop,T4P6N1Z8R5Y3LKA,USER_BASED,Production,"",Bellwether,USBL,false,true
+532,Q7H2M9C5V4X8JSA,Oak View Group Shop,2026-03-14 12:31:57.702 +0530,oak_view_group_shop,W3K6T8N2P7D5RLA,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""049oakvw664435"",""sharedSecret"":""sn6atcrm/Y7AIBQWrS8Wkg==""}}",Coupa,USBL,false,true
+562,KZP7F4LMR2XJTD,Orange Lake Shop,2026-03-17 14:16:54.171 +0530,orange_lake_shop,Q8VYB3N6WPLKSA,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""53369415-cxml"",""sharedSecret"":""Sysco123""}}",MS Dynamics,USBL,false,true
+596,A9K7F2QW8L3Z6RP,Pinecrest Medical Care Facility Shop,2026-03-25 19:29:23.568 +0530,pinecrest_medical_care_facility_shop,T4N1V9JQ6M8H2KD,USER_BASED,Production,"",Smart PO,USBL,true,true
+597,Z3R8W6KQ1P5L7MX,YMCA of the North Shop,2026-03-25 19:29:30.326 +0530,ymca_of_the_north_shop,Q7H2D9S4N8V1JKT,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""067ymcan000018"",""sharedSecret"":""oiESTcdKA4bxhZNzvTjMZA==""}}",Basware,USBL,false,true
+598,M6T9Q2LJ7Z4X8HP,South Central Foundation Shop,2026-03-25 19:29:35.801 +0530,south_central_foundation_shop,B1W8R5KQ3N7D2VL,USER_BASED,Production,"",Coupa,USBL,false,true
+599,Y4P9Q7H2L6T1ZKM,YMCA Shop,2026-03-25 19:29:46.792 +0530,ymca_shop,C8N3V5R1X7W2JQH,USER_BASED,Production,"",SpendBridge,USBL,false,true
+600,R2L8M6KQ4S9T7HP,YMCA Shop EqualLevel,2026-03-25 19:29:50.809 +0530,ymca_shop_equal_level,F3Z7X9JQ1N6V4LD,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""elymcaprod"",""sharedSecret"":""Jb4Taq67dvV9iKLWwvcBrg==""}}",Euna Procurement formerly EqualLevel,USBL,false,true
+601,W9K3T7P2Q8L6HMR,Viejas Casino & Resort Shop,2026-03-25 19:29:56.152 +0530,viejas_casino_&_resort_shop,S1N5V8JQ4X9D2KT,USER_BASED,Production,"",Workday,USBL,false,true
+602,H7Q2Z9L4M8R5KTD,YMCA Triangle Shop,2026-03-25 19:30:00.870 +0530,ymca_triangle_shop,P6W1N3JQ9X7V4LB,PARTNER_BASED,Production,"{""commonCredentials"":{""identity"":""163jagger340647"",""sharedSecret"":""9xQdGtTzJlohY5Ydx+/5rg==""}}",Jaggaer (formerly SciQuest),USBL,false,true
+628,KJWGVRWFJE37KFP,Target Hospitality Shop,2026-04-06 16:04:43.809 +0530,target_hospitality_shop,,USER_BASED,Production,"",Oracle Fusion,USBL,false,true
